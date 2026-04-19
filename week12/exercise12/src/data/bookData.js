@@ -2,7 +2,7 @@ export const books= [
 	{
 		id:1,
 		title: "Dracula",
-		author: "Author 1",
+		author: "Bram Stoker",
 		description: "This is the content of Book 1",
         bookArt: "images/dracula.jpg",
 
