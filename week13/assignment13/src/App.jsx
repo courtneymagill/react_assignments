@@ -1,6 +1,7 @@
 import './css/App.css'
 import Home from "./pages/Home";
 import Projects from "./components/ProjectList";
+import NavBar from './pages/NavBar';
 
 function Footer() {
   return (
@@ -13,6 +14,7 @@ function Footer() {
 function App() {
   return (
     <div>
+      <NavBar />
       <Projects/>
     </div>
   );
