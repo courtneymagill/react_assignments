@@ -1,11 +1,10 @@
-import Projects from ".components/ProjectList.jsx";
+import Projects from "../components/ProjectList.jsx";
 
 function ProjectsPage() {
     return (
         <div>
-            <h1>Projects</h1>
+            <h1>All Projects</h1>
             <Projects/>
-            <p>This is the Projects page of our application.</p>
         </div>
     );
 }

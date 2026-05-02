@@ -29,7 +29,7 @@ export const projects=[{
     {
     id: 5,
     name:"Nighttime Snowfall",
-    description:"Project Description 5",
+    description:"An animated snowfall simulation using object-oriented particles with randomized size, speed, and horizontal drift, looping continuously as flakes reset at the bottom of the canvas.",
     url:"https://editor.p5js.org/courtneymagill/full/d3hd_Xiz8",
     image:"images/snowflakes.gif",
     },
@@ -37,7 +37,7 @@ export const projects=[{
     id: 6,
     name:"Pong",
     description:"This program allows a ball to bounce around and a user to control a paddle with their mouse to prevent the ball from going off the screen. Each time the ball touches the paddle, the score increases by 1 point. If the ball goes past the height of the window, the ball freezes and a GAME OVER message appears.",
-    url:"https://example.com",
+    url:"https://editor.p5js.org/courtneymagill/full/KuW_1PxqJ",
     image:"images/pong.gif",
     },
     {
@@ -55,10 +55,31 @@ export const projects=[{
     image:"images/madlibs.png",
     },
     {
-        id: 8,
+        id: 9,
         name:"Sol Lewitt #91",
         description:"I was interested in following one of Sol LeWitt’s drawing instructions. I chose Drawing #91. The instructions for that are: “A six-inch (15 cm) grid covering the wall. Within each square, not straight lines from side to side, using red, yellow and blue pencils. Each square contains at least one line of each color.” I didn’t actually do 6 inch squares though, I made the squares 150 pixels. How the program works: A nested loop draws the grid, with a different loop drawing between 3 and 5 red, yellow and blue lines. Click to regenerate the grid. Press ‘d’ to download the drawing.",
         url:"https://editor.p5js.org/courtneymagill/full/_MpRBnF_6",
         image:"images/SolLewitt91.png",
-        }
+        },
+        {
+            id: 9,
+            name:"Ghost sticker generator",
+            description:"Click to see a random display of between 2 and 20 ghost stickers stamped around the window.",
+            url:"https://editor.p5js.org/courtneymagill/full/AFMThcB2e",
+            image:"images/ghostgenerator1.gif",
+        },
+        {
+            id: 9,
+            name:"Oscillating Grid",
+            description:"An experimentation with oscillation and rotation within a structured grid system using 'for' loops'.",
+            url:"https://editor.p5js.org/courtneymagill/full/XZrzb2p3d",
+            image:"images/oscillating-grid.gif",
+        },
+        {
+            id: 9,
+            name:"Traffic Light",
+            description:"Run your mouse over the traffic light to stop, slow down or go!",
+            url:"https://editor.p5js.org/courtneymagill/sketches/izL6_uHhv",
+            image:"images/trafficlight.gif",
+        },
 ]

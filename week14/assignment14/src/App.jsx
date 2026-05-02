@@ -1,7 +1,10 @@
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './css/App.css'
 import Home from "./pages/Home";
-import Projects from "./components/ProjectList";
-import NavBar from './pages/NavBar';
+import About from "./pages/About";
+import ProjectsPage from "./pages/ProjectsPage";
+import NavBar from './components/NavBar';
 
 function Footer() {
   return (
@@ -13,10 +16,14 @@ function Footer() {
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavBar />
-      <Projects/>
-    </div>
+      <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/about" element={<About/>} />
+      <Route path="/projects" element={<ProjectsPage/>} />
+    </Routes>
+    </Router>
   );
 }
 
